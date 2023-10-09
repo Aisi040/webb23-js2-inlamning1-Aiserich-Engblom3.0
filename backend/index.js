@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-const highscoresFilePath = path.join(__dirname, 'highscores.json');
+const highscoresFilePath = path.join(__dirname, 'data/highscores.json');
 
 app.use(express.json());
 app.use(cors());
